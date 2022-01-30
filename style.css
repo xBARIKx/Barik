@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0 auto;
+    background: #ffffff;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Problem, #Coin, #Team, #logo {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+}
+/* header */
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #007765;
+    width: 100%;
+    height: 84px;
+}
+
+.container{
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 0px 55px;
+}
+
+.navigation{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo img{
+    margin: 20px 0 0;
+}
+
+.menu{
+    padding: 30px;
+}
+.menu a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+ul, li{
+    display: inline-block;
+}
+ul a{
+    border-right: solid 2px white;
+}
+
+ul a:last-child{
+    border-right: none;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Barik/image.png);
+    background-size: cover;
+    background-repeat: none;
+    background-position: 0 0;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-top: 84px;
+}
+
+.jumbotron_text{
+    color: white;
+    text-align: justify;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+/* problem */
+
+.problem{
+    padding-bottom: 92px;
+    padding-top: 48px;
+}
+
+.problem_tittle{
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.problem_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px; 
+    line-height: 37px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+/* hero */
+
+.hero{
+    background-image: url(../Barik/image2.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.hero_text{
+    font-weight: 500;
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+    line-height: 56px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    color: white;
+
+}
+
+/* ppc */
+
+.ppc{
+    padding-bottom: 92px;
+    padding-top: 48px;
+}
+
+.coin_tittle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 75px;
+    color: #007765;
+    padding-bottom: 16px;
+}
+.coin_text img{
+    height: 115px;
+    width: 115px;
+    float: left;
+    margin: 0 48px 0px 0;
+}
+.coin_text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    padding-left: 48px;
+
+}
+/* TEAM */
+
+.team{
+    background-color: #EEEEEE;
+}
+
+.team_tittle{
+        text-align: center;
+        font-size: 64px;
+        line-height: 75px;
+        font-weight: 500px;
+        font-style: normal;
+        color: #007765;
+        padding-top: 48px;
+        padding-bottom: 32px;
+}
+
+.team_profiles img{
+    width: 168px;
+    
+}
+.team_profiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 94px;
+}
+.team_profile{
+    padding: 75px;
+    text-align: center;
+}
+.team_name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.team_position{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+
+}
+
+
+/* footer */
+
+.rectangle{
+    background-color: #333333;
+}
+
+.rectangle_text{
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 48px 340px 64px 340px;
+}
+
+
+
+
